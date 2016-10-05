@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorldNoAttributes", "HelloWorldNoAttributes.vcproj", "{794CCA11-5B20-4211-9BE7-BAC2B01619A0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorldNoAttributesIsapi", "..\HelloWorldNoAttributesIsapi\HelloWorldNoAttributesIsapi.vcproj", "{2FB1E4BC-A3FE-44D2-9E94-91218CCE921F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{794CCA11-5B20-4211-9BE7-BAC2B01619A0}.Debug.ActiveCfg = Debug|Win32
+		{794CCA11-5B20-4211-9BE7-BAC2B01619A0}.Debug.Build.0 = Debug|Win32
+		{794CCA11-5B20-4211-9BE7-BAC2B01619A0}.Release.ActiveCfg = Release|Win32
+		{794CCA11-5B20-4211-9BE7-BAC2B01619A0}.Release.Build.0 = Release|Win32
+		{2FB1E4BC-A3FE-44D2-9E94-91218CCE921F}.Debug.ActiveCfg = Debug|Win32
+		{2FB1E4BC-A3FE-44D2-9E94-91218CCE921F}.Debug.Build.0 = Debug|Win32
+		{2FB1E4BC-A3FE-44D2-9E94-91218CCE921F}.Release.ActiveCfg = Release|Win32
+		{2FB1E4BC-A3FE-44D2-9E94-91218CCE921F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

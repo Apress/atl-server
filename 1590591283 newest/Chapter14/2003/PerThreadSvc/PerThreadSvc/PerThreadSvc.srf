@@ -1,0 +1,25 @@
+<html>
+	{{// use MSDN's "ATL Server Response File Reference" to learn about SRF 
+	files.}} {{handler PerThreadSvc.dll/Default}}
+	<head>
+	</head>
+	<body>
+		<table align="left" border="1">
+			<tr>
+				<td align="left">
+					<font size="+1"><b>City</b></font></td>
+				<td align="center">
+					<font size="+1"><b>Forecasted Temperature</b></font></td>
+			</tr>
+			
+			{{while GetNextCity}}
+			<tr>
+				<td align="left">
+					{{CityName}}</td>
+				<td align="center">
+					{{CityTemperature}}</td>
+			</tr>
+			{{endwhile}}
+		</table>
+	</body>
+</html>

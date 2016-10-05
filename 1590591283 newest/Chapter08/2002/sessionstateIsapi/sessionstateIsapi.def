@@ -1,0 +1,8 @@
+; sessionstateIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "sessionstateIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoteWeatherService", "RemoteWeatherService.vcproj", "{BB7A8C54-7111-4512-92DE-C873D0FF39F3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BB7A8C54-7111-4512-92DE-C873D0FF39F3}.Debug.ActiveCfg = Debug|Win32
+		{BB7A8C54-7111-4512-92DE-C873D0FF39F3}.Debug.Build.0 = Debug|Win32
+		{BB7A8C54-7111-4512-92DE-C873D0FF39F3}.Release.ActiveCfg = Release|Win32
+		{BB7A8C54-7111-4512-92DE-C873D0FF39F3}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

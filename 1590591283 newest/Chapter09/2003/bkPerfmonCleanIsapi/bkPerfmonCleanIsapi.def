@@ -1,0 +1,8 @@
+; bkPerfmonCleanIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "bkPerfmonCleanIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

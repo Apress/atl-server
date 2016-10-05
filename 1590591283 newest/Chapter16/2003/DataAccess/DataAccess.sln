@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataAccess", "DataAccess.vcproj", "{E461E9E5-193B-4D40-B66E-B615A20629D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataAccessIsapi", "..\DataAccessIsapi\DataAccessIsapi.vcproj", "{76890DB0-2DB2-4233-955A-80902B3F2562}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E461E9E5-193B-4D40-B66E-B615A20629D5}.Debug.ActiveCfg = Debug|Win32
+		{E461E9E5-193B-4D40-B66E-B615A20629D5}.Debug.Build.0 = Debug|Win32
+		{E461E9E5-193B-4D40-B66E-B615A20629D5}.Release.ActiveCfg = Release|Win32
+		{E461E9E5-193B-4D40-B66E-B615A20629D5}.Release.Build.0 = Release|Win32
+		{76890DB0-2DB2-4233-955A-80902B3F2562}.Debug.ActiveCfg = Debug|Win32
+		{76890DB0-2DB2-4233-955A-80902B3F2562}.Debug.Build.0 = Debug|Win32
+		{76890DB0-2DB2-4233-955A-80902B3F2562}.Release.ActiveCfg = Release|Win32
+		{76890DB0-2DB2-4233-955A-80902B3F2562}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

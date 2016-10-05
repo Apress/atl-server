@@ -1,0 +1,8 @@
+; DynamicThreadPoolExampleIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "DynamicThreadPoolExampleIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

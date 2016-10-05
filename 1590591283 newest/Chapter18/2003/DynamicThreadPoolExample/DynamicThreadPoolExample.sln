@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicThreadPoolExample", "DynamicThreadPoolExample.vcproj", "{0DDE5FC8-C2CC-406E-B1DF-EDBF75CB56F0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicThreadPoolExampleIsapi", "..\DynamicThreadPoolExampleIsapi\DynamicThreadPoolExampleIsapi.vcproj", "{09D8762D-E6DD-4CF5-BEB8-10323F38F858}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0DDE5FC8-C2CC-406E-B1DF-EDBF75CB56F0}.Debug.ActiveCfg = Debug|Win32
+		{0DDE5FC8-C2CC-406E-B1DF-EDBF75CB56F0}.Debug.Build.0 = Debug|Win32
+		{0DDE5FC8-C2CC-406E-B1DF-EDBF75CB56F0}.Release.ActiveCfg = Release|Win32
+		{0DDE5FC8-C2CC-406E-B1DF-EDBF75CB56F0}.Release.Build.0 = Release|Win32
+		{09D8762D-E6DD-4CF5-BEB8-10323F38F858}.Debug.ActiveCfg = Debug|Win32
+		{09D8762D-E6DD-4CF5-BEB8-10323F38F858}.Debug.Build.0 = Debug|Win32
+		{09D8762D-E6DD-4CF5-BEB8-10323F38F858}.Release.ActiveCfg = Release|Win32
+		{09D8762D-E6DD-4CF5-BEB8-10323F38F858}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

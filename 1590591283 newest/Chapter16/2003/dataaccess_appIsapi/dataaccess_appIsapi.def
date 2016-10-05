@@ -1,0 +1,8 @@
+; dataaccess_appIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "dataaccess_appIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

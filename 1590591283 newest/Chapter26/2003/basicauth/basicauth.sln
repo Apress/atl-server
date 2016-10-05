@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basicauth", "basicauth.vcproj", "{48AB7037-ED45-4765-AA6A-685746A9FF38}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basicauthIsapi", "..\basicauthIsapi\basicauthIsapi.vcproj", "{9993E2FB-3406-4AED-B078-416779C663F4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basicclient", "..\basicclient\basicclient.vcproj", "{E3892B26-1236-4C75-871A-C8726159EECB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{48AB7037-ED45-4765-AA6A-685746A9FF38}.Debug.ActiveCfg = Debug|Win32
+		{48AB7037-ED45-4765-AA6A-685746A9FF38}.Debug.Build.0 = Debug|Win32
+		{48AB7037-ED45-4765-AA6A-685746A9FF38}.Release.ActiveCfg = Release|Win32
+		{48AB7037-ED45-4765-AA6A-685746A9FF38}.Release.Build.0 = Release|Win32
+		{9993E2FB-3406-4AED-B078-416779C663F4}.Debug.ActiveCfg = Debug|Win32
+		{9993E2FB-3406-4AED-B078-416779C663F4}.Debug.Build.0 = Debug|Win32
+		{9993E2FB-3406-4AED-B078-416779C663F4}.Release.ActiveCfg = Release|Win32
+		{9993E2FB-3406-4AED-B078-416779C663F4}.Release.Build.0 = Release|Win32
+		{E3892B26-1236-4C75-871A-C8726159EECB}.Debug.ActiveCfg = Debug|Win32
+		{E3892B26-1236-4C75-871A-C8726159EECB}.Debug.Build.0 = Debug|Win32
+		{E3892B26-1236-4C75-871A-C8726159EECB}.Release.ActiveCfg = Release|Win32
+		{E3892B26-1236-4C75-871A-C8726159EECB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+<html>
+	<HEAD>
+	</HEAD>
+	<BODY>
+		{{handler DynSvc.dll/Calculate}}
+		<h1>Dynamic Services test result</h1>
+		<h2>Using Service : {{ServiceName}}</h2>
+		<p>
+			The result for {{Param1}} and {{Param2}} is {{Result}}
+		</p>
+		
+		<p>
+			Click <a href="DynSvc.srf">here</a> to get back to the front page.
+		</p>
+	</BODY>
+</html>

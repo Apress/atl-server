@@ -1,0 +1,21 @@
+ISAPI Extensions as Service Providers
+=====================================
+
+
+The following code samples are available for this chapter(*):
+
+
+To deploy: extract the archive content in some folder, load the application in the 
+appropriate (*) Visual Studio and build/run the application:
+
+\2003\DYnamicServices.zip -- sample for dynamically adding services to an ISAPI Extension
+\2003\PerThreadService.zip  -- sample for using a per-thread service
+
+
+
+
+
+
+(*) --  the samples are grouped in folders named 2002 and 2003
+2002 -- built and tested with Visual Studio .Net 2002
+2003 -- built and tested with Visual Studio .Net 2003

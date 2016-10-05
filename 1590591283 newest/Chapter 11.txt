@@ -1,0 +1,23 @@
+Using ATL Server Components in Stand-Alone Applications
+=======================================================
+
+
+The following code samples are available for this chapter(*):
+
+
+To deploy: extract the archive content in some folder, load the application in the 
+appropriate (*) Visual Studio and build/run the application:
+
+\2002\StandaloneStencilProc.zip -- sample for using the stencil processor
+\2002\StandaloneThreadPool.zip  -- sample for using the thread pool
+
+
+
+The StandAloneStencilProc sample is actually a wizard for generating Web Services
+
+
+
+
+(*) --  the samples are grouped in folders named 2002 and 2003
+2002 -- built and tested with Visual Studio .Net 2002
+2003 -- built and tested with Visual Studio .Net 2003

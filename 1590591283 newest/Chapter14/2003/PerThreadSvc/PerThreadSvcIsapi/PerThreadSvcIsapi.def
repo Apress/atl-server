@@ -1,0 +1,8 @@
+; PerThreadSvcIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "PerThreadSvcIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

@@ -1,0 +1,60 @@
+{{handler UserInput.dll/Default}}
+<html>
+  <body>
+    <form method="post" ID="Form1">
+    <table border=1 ID="Table1">
+
+    <tr>
+    <td colspan=2>
+      Welcome to Ben's World of Fruit.
+    </td>
+    </tr>
+  
+    <tr>
+    <td>Please select an item:</td>
+    <td>   
+      <ul>
+      <li><input type="radio" name="fruit" value="apple" ID="Radio1">Apple
+      <li><input type="radio" name="fruit" value="peach" ID="Radio2">Peach
+      <li><input type="radio" name="fruit" value="orange" ID="Radio3">Orange
+      </ul>
+      {{if HasErrors}}
+        <br><font color="red">{{GetError(0)}}
+      {{endif}}
+    </td>
+    </tr>
+
+    <tr>
+    <td>Type:</td>
+    <td>
+      <input type="radio" value=1 name="is_organic" ID="Radio4">Organic
+      <input type="radio" value=0 name="is_organic" ID="Radio5">Conventional
+      {{if HasErrors}}
+        <br><font color="red">{{GetError(1)}}</font>
+      {{endif}}
+    </td>
+    </tr>
+
+    <tr>
+    <td>Quantity:</td>
+    <td>
+      <input name="quantity" ID="Text1">
+      {{if HasErrors}}
+        <br><font color="red">{{GetError(2)}}</font>
+      {{endif}}
+    </td>
+    </tr>
+
+    <tr>
+    <td colspan=2>
+      <input type="submit" value="Go" ID="Submit1" NAME="Submit1"> 
+      {{if HasErrors}}   
+        <br><font color="red">Please correct your errors!</font>
+      {{endif}}
+    </td>
+
+    </tr>    
+    </table>
+    </form>
+  </body>
+</html>

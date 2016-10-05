@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bkPerfmonClean", "bkPerfmonClean.vcproj", "{1C1F2133-AA0D-4B4D-A7F5-60F598F83BC7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bkPerfmonCleanIsapi", "..\bkPerfmonCleanIsapi\bkPerfmonCleanIsapi.vcproj", "{248E61E5-C07C-4E54-9028-C74D7E85DD80}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1C1F2133-AA0D-4B4D-A7F5-60F598F83BC7}.Debug.ActiveCfg = Debug|Win32
+		{1C1F2133-AA0D-4B4D-A7F5-60F598F83BC7}.Debug.Build.0 = Debug|Win32
+		{1C1F2133-AA0D-4B4D-A7F5-60F598F83BC7}.Release.ActiveCfg = Release|Win32
+		{1C1F2133-AA0D-4B4D-A7F5-60F598F83BC7}.Release.Build.0 = Release|Win32
+		{248E61E5-C07C-4E54-9028-C74D7E85DD80}.Debug.ActiveCfg = Debug|Win32
+		{248E61E5-C07C-4E54-9028-C74D7E85DD80}.Debug.Build.0 = Debug|Win32
+		{248E61E5-C07C-4E54-9028-C74D7E85DD80}.Release.ActiveCfg = Release|Win32
+		{248E61E5-C07C-4E54-9028-C74D7E85DD80}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

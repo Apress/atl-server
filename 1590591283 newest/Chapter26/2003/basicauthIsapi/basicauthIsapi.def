@@ -1,0 +1,8 @@
+; basicauthIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "basicauthIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

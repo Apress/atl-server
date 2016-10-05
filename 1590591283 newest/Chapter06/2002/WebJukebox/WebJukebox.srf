@@ -1,0 +1,23 @@
+<html>
+  <HEAD>
+  </HEAD>
+  <BODY>
+    {{handler WebJukebox.dll/Default}}
+    <table border="1">
+      <tr>
+        <form name="title" method="post">
+          <td><b><input type="submit" value="Name" name="Name"></b></td>
+          <td><b><input type="submit" value="Musician / Band / Composer" name="Musician"></b></td>
+          <td><b><input type="submit" value="Description" name="Description"></b></td>
+        </form>
+      </tr>
+      {{while MoreSongs}}
+      <tr>
+        <td><a href="{{Location}}">{{Name}}</a></td>
+        <td>{{Musician}}</td>
+        <td>{{Description}}</td>
+      </tr>
+      {{endwhile}}
+    </table>
+  </BODY>
+</html>

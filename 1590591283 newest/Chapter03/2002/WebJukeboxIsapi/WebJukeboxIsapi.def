@@ -1,0 +1,8 @@
+; WebJukeboxIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "WebJukeboxIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

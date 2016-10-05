@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleService", "SimpleService.vcproj", "{20978CAC-6AC9-45BB-9FAB-3B8ABEA794DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleServiceIsapi", "..\SimpleServiceIsapi\SimpleServiceIsapi.vcproj", "{F4626366-67D6-4E6B-93FD-04AD48B51452}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{20978CAC-6AC9-45BB-9FAB-3B8ABEA794DD}.Debug.ActiveCfg = Debug|Win32
+		{20978CAC-6AC9-45BB-9FAB-3B8ABEA794DD}.Debug.Build.0 = Debug|Win32
+		{20978CAC-6AC9-45BB-9FAB-3B8ABEA794DD}.Release.ActiveCfg = Release|Win32
+		{20978CAC-6AC9-45BB-9FAB-3B8ABEA794DD}.Release.Build.0 = Release|Win32
+		{F4626366-67D6-4E6B-93FD-04AD48B51452}.Debug.ActiveCfg = Debug|Win32
+		{F4626366-67D6-4E6B-93FD-04AD48B51452}.Debug.Build.0 = Debug|Win32
+		{F4626366-67D6-4E6B-93FD-04AD48B51452}.Release.ActiveCfg = Release|Win32
+		{F4626366-67D6-4E6B-93FD-04AD48B51452}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

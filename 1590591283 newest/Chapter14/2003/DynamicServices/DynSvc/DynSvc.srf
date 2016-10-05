@@ -1,0 +1,55 @@
+<html>
+	<HEAD>
+	</HEAD>
+	<BODY>
+		{{// use MSDN's "ATL Server Response File Reference" to learn about SRF 
+		files.}} {{handler DynSvc.dll/Default}}
+		<h1>Dynamic Services test sample</h1>
+		<h2>Using Services</h2>
+		<p>
+			For testing a dynamic service, please select the service from the list below 
+			and enter the parameter values. If no service is available, add a service in 
+			the form <a href="#Add">below<A>
+		</p>
+		<P>
+			<form method="post" action="Calculate.srf">
+				<table border="2">
+					<tr>
+						<td>Operation(Service)</td>
+						<td>First parameter</td>
+						<td>Second parameter</td>
+					</tr>
+					<tr>
+						<td>
+							<SELECT id="service" size="4" name="service">
+								{{GetServiceCount}} {{while GetNextService}}<option value="{{ServiceName}}">{{ServiceName}}</option>
+								{{endwhile}}
+							</SELECT>
+						</td>
+						<td><input type="text" name="param1" id="param1"></td>
+						<td><input type="text" name="param2" ID="param2"></td>
+					</tr>
+				</table>
+				<br>
+				Press "Calculate" to get the result: <input type="submit" name="Calculate!" value="Submit Query">
+			</form>
+		</P>
+		<hr>
+		<a id="Add" />
+		<h2>Add/Remove Services</h2>
+		<form method="POST" action="DynSvc.srf" ID="Form2">
+			<P>
+				Available Dynamic Service DLLs
+			</P>
+			<P>
+				<SELECT id="Select2" size="4" name="dll">
+					{{GetFilesList}} {{while GetNextFile}}<option value="{{FileName}}">{{FileName}}</option>
+					{{endwhile}}
+				</SELECT>
+			</P>
+			<input type="submit" value="Add Dynamic Service"></P>
+			<P>
+		</form>
+		</P>
+	</BODY>
+</html>

@@ -1,0 +1,8 @@
+; DynSvcIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "DynSvcIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

@@ -1,0 +1,9 @@
+<html>
+	{{handler SimpleService.dll/Default}}
+	<head>
+	</head>
+	<body>
+		This is a test: {{Hello}}<br>
+		This page has been hit {{Counter}} times!<br>
+	</body>
+</html>

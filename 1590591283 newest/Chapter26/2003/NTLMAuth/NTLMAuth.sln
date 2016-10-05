@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NTLMAuth", "NTLMAuth.vcproj", "{5759B0A5-1463-45DC-8D2E-2703BF8414C0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NTLMAuthIsapi", "..\NTLMAuthIsapi\NTLMAuthIsapi.vcproj", "{8242DEFD-E631-4302-8043-421CD37017F1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NTLMClient", "..\NTLMClient\NTLMClient.vcproj", "{D85CD629-8A2B-47B1-9A46-C5DE9B612A9C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5759B0A5-1463-45DC-8D2E-2703BF8414C0}.Debug.ActiveCfg = Debug|Win32
+		{5759B0A5-1463-45DC-8D2E-2703BF8414C0}.Debug.Build.0 = Debug|Win32
+		{5759B0A5-1463-45DC-8D2E-2703BF8414C0}.Release.ActiveCfg = Release|Win32
+		{5759B0A5-1463-45DC-8D2E-2703BF8414C0}.Release.Build.0 = Release|Win32
+		{8242DEFD-E631-4302-8043-421CD37017F1}.Debug.ActiveCfg = Debug|Win32
+		{8242DEFD-E631-4302-8043-421CD37017F1}.Debug.Build.0 = Debug|Win32
+		{8242DEFD-E631-4302-8043-421CD37017F1}.Release.ActiveCfg = Release|Win32
+		{8242DEFD-E631-4302-8043-421CD37017F1}.Release.Build.0 = Release|Win32
+		{D85CD629-8A2B-47B1-9A46-C5DE9B612A9C}.Debug.ActiveCfg = Debug|Win32
+		{D85CD629-8A2B-47B1-9A46-C5DE9B612A9C}.Debug.Build.0 = Debug|Win32
+		{D85CD629-8A2B-47B1-9A46-C5DE9B612A9C}.Release.ActiveCfg = Release|Win32
+		{D85CD629-8A2B-47B1-9A46-C5DE9B612A9C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

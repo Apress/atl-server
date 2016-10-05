@@ -1,0 +1,8 @@
+; UserInputIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "UserInputIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

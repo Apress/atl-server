@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserInput", "UserInput.vcproj", "{EE32C066-EF33-4AD5-91D9-C6CB78A07492}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserInputIsapi", "..\UserInputIsapi\UserInputIsapi.vcproj", "{8B2C6168-4D87-484C-9E6E-651A79670DE8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EE32C066-EF33-4AD5-91D9-C6CB78A07492}.Debug.ActiveCfg = Debug|Win32
+		{EE32C066-EF33-4AD5-91D9-C6CB78A07492}.Debug.Build.0 = Debug|Win32
+		{EE32C066-EF33-4AD5-91D9-C6CB78A07492}.Release.ActiveCfg = Release|Win32
+		{EE32C066-EF33-4AD5-91D9-C6CB78A07492}.Release.Build.0 = Release|Win32
+		{8B2C6168-4D87-484C-9E6E-651A79670DE8}.Debug.ActiveCfg = Debug|Win32
+		{8B2C6168-4D87-484C-9E6E-651A79670DE8}.Debug.Build.0 = Debug|Win32
+		{8B2C6168-4D87-484C-9E6E-651A79670DE8}.Release.ActiveCfg = Release|Win32
+		{8B2C6168-4D87-484C-9E6E-651A79670DE8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

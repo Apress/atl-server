@@ -1,0 +1,8 @@
+; SimpleServiceIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "SimpleServiceIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

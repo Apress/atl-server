@@ -1,0 +1,8 @@
+; atlspassportIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "atlspassportIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

@@ -1,0 +1,29 @@
+Extensibility of ATL Server Web Services
+========================================
+
+The following code samples are available for this chapter(*):
+
+
+To deploy: extract the archive content in some folder, load the application in the 
+appropriate (*) Visual Studio and build/deploy/run the applications.
+
+For the first two samples (CustomMarshaling and CustomServerSideParsing), you will need
+IIS for the server side application
+
+OverriddenTransport.zip does not need IIS as it is not using HTTP for transport of the 
+SOAP payload
+
+
+
+\2002\CustomMarshaling.zip -- sample for marshaling a custom type (GUID)
+\2002\CustomServerSideParsing.zip -- sample for overriding the parsing on the server side
+\2002\OverriddenTransport.zip -- sample for using a different (non-HTTP) transport mechanism
+
+
+
+
+
+
+(*) --  the samples are grouped in folders named 2002 and 2003
+2002 -- built and tested with Visual Studio .Net 2002
+2003 -- built and tested with Visual Studio .Net 2003

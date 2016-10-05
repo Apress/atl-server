@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<discovery xmlns="http://schemas.xmlsoap.org/disco/">
+	<contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://BOGDANC03/RemoteWeatherService/RemoteWeatherService.dll?Handler=GenRemoteWeatherServiceWSDL" docRef="http://BOGDANC03/RemoteWeatherService/RemoteWeatherService.htm"/>
+</discovery>

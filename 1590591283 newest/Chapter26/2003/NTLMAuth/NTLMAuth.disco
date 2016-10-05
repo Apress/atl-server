@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<discovery xmlns="http://schemas.xmlsoap.org/disco/">
+	<contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://PRANISHK-V1/NTLMAuth/NTLMAuth.dll?Handler=GenNTLMAuthWSDL" docRef="http://PRANISHK-V1/NTLMAuth/NTLMAuth.htm"/>
+</discovery>

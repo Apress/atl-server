@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atlspassport", "atlspassport.vcproj", "{DA94BB6B-6EA9-4E1A-9153-4039C9048406}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atlspassportIsapi", "..\atlspassportIsapi\atlspassportIsapi.vcproj", "{4CA9274D-E5B0-4044-B9E5-19123608CF5F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DA94BB6B-6EA9-4E1A-9153-4039C9048406}.Debug.ActiveCfg = Debug|Win32
+		{DA94BB6B-6EA9-4E1A-9153-4039C9048406}.Debug.Build.0 = Debug|Win32
+		{DA94BB6B-6EA9-4E1A-9153-4039C9048406}.Release.ActiveCfg = Release|Win32
+		{DA94BB6B-6EA9-4E1A-9153-4039C9048406}.Release.Build.0 = Release|Win32
+		{4CA9274D-E5B0-4044-B9E5-19123608CF5F}.Debug.ActiveCfg = Debug|Win32
+		{4CA9274D-E5B0-4044-B9E5-19123608CF5F}.Debug.Build.0 = Debug|Win32
+		{4CA9274D-E5B0-4044-B9E5-19123608CF5F}.Release.ActiveCfg = Release|Win32
+		{4CA9274D-E5B0-4044-B9E5-19123608CF5F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

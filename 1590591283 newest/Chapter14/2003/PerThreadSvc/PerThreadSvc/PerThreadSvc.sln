@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerThreadSvc", "PerThreadSvc.vcproj", "{0D470D67-328E-4CD6-8A2B-7760D989A1B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerThreadSvcIsapi", "..\PerThreadSvcIsapi\PerThreadSvcIsapi.vcproj", "{7AC44F2B-5269-4642-9D6F-6C0763DCBE5B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0D470D67-328E-4CD6-8A2B-7760D989A1B3}.Debug.ActiveCfg = Debug|Win32
+		{0D470D67-328E-4CD6-8A2B-7760D989A1B3}.Debug.Build.0 = Debug|Win32
+		{0D470D67-328E-4CD6-8A2B-7760D989A1B3}.Release.ActiveCfg = Release|Win32
+		{0D470D67-328E-4CD6-8A2B-7760D989A1B3}.Release.Build.0 = Release|Win32
+		{7AC44F2B-5269-4642-9D6F-6C0763DCBE5B}.Debug.ActiveCfg = Debug|Win32
+		{7AC44F2B-5269-4642-9D6F-6C0763DCBE5B}.Debug.Build.0 = Debug|Win32
+		{7AC44F2B-5269-4642-9D6F-6C0763DCBE5B}.Release.ActiveCfg = Release|Win32
+		{7AC44F2B-5269-4642-9D6F-6C0763DCBE5B}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

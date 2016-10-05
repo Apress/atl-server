@@ -1,0 +1,8 @@
+; RemoteWeatherService.def : declares the module parameters for the DLL.
+
+LIBRARY	     "RemoteWeatherService"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

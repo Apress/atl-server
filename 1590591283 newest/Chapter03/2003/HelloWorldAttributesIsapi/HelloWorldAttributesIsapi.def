@@ -1,0 +1,8 @@
+; HelloWorldAttributesIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "HelloWorldAttributesIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

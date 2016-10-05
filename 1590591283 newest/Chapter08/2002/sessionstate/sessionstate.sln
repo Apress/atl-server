@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sessionstate", "sessionstate.vcproj", "{E940FE29-A0E9-4550-9C01-2EB5E5514D57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sessionstateIsapi", "..\sessionstateIsapi\sessionstateIsapi.vcproj", "{7DC60190-29C9-409B-A322-2D3220CCCD00}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E940FE29-A0E9-4550-9C01-2EB5E5514D57}.Debug.ActiveCfg = Debug|Win32
+		{E940FE29-A0E9-4550-9C01-2EB5E5514D57}.Debug.Build.0 = Debug|Win32
+		{E940FE29-A0E9-4550-9C01-2EB5E5514D57}.Release.ActiveCfg = Release|Win32
+		{E940FE29-A0E9-4550-9C01-2EB5E5514D57}.Release.Build.0 = Release|Win32
+		{7DC60190-29C9-409B-A322-2D3220CCCD00}.Debug.ActiveCfg = Debug|Win32
+		{7DC60190-29C9-409B-A322-2D3220CCCD00}.Debug.Build.0 = Debug|Win32
+		{7DC60190-29C9-409B-A322-2D3220CCCD00}.Release.ActiveCfg = Release|Win32
+		{7DC60190-29C9-409B-A322-2D3220CCCD00}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

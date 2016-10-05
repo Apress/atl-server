@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebJukebox", "WebJukebox.vcproj", "{3D1C6F06-3D19-4BBA-9AB6-A6ADFDB6BF11}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebJukeboxIsapi", "..\WebJukeboxIsapi\WebJukeboxIsapi.vcproj", "{6C96AFB0-E512-4744-B7DC-42A3782F8D0F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3D1C6F06-3D19-4BBA-9AB6-A6ADFDB6BF11}.Debug.ActiveCfg = Debug|Win32
+		{3D1C6F06-3D19-4BBA-9AB6-A6ADFDB6BF11}.Debug.Build.0 = Debug|Win32
+		{3D1C6F06-3D19-4BBA-9AB6-A6ADFDB6BF11}.Release.ActiveCfg = Release|Win32
+		{3D1C6F06-3D19-4BBA-9AB6-A6ADFDB6BF11}.Release.Build.0 = Release|Win32
+		{6C96AFB0-E512-4744-B7DC-42A3782F8D0F}.Debug.ActiveCfg = Debug|Win32
+		{6C96AFB0-E512-4744-B7DC-42A3782F8D0F}.Debug.Build.0 = Debug|Win32
+		{6C96AFB0-E512-4744-B7DC-42A3782F8D0F}.Release.ActiveCfg = Release|Win32
+		{6C96AFB0-E512-4744-B7DC-42A3782F8D0F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

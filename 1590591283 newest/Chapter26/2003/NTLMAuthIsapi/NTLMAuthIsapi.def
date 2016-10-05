@@ -1,0 +1,8 @@
+; NTLMAuthIsapi.def : declares the module parameters for the DLL.
+
+LIBRARY	     "NTLMAuthIsapi"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

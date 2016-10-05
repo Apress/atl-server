@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ATLSINSTSETTINGS>
+	<WEBHOSTNAME>localhost</WEBHOSTNAME>
+	<VIRTDIRNAME>HelloWorldNoAttributes</VIRTDIRNAME>
+	<VIRTDIRFSPATH>c:\inetpub\wwwroot\HelloWorldNoAttributes</VIRTDIRFSPATH>
+	<DONOTCREATEVIRTDIR>true</DONOTCREATEVIRTDIR>
+	<UNLOADBEFORECOPY>true</UNLOADBEFORECOPY>
+	<APPISOLATION>0</APPISOLATION>
+
+	<APPMAPPING fileext=".srf">
+		<VERB>GET</VERB>
+		<VERB>HEAD</VERB>
+		<VERB>POST</VERB>
+		<VERB>DEBUG</VERB>
+	</APPMAPPING>
+
+	<APPMAPPING fileext=".dll">
+		<VERB>GET</VERB>
+		<VERB>HEAD</VERB>
+		<VERB>POST</VERB>
+		<VERB>DEBUG</VERB>
+	</APPMAPPING>
+
+	<APPFILEGROUP>
+		<APPFILENAME type="extension">
+			<SRC>c:\projects\helloworldnoattributesisapi\debug\HelloWorldNoAttributesIsapi.dll</SRC>
+			<DEST>HelloWorldNoAttributesIsapi.dll</DEST>
+		</APPFILENAME>
+	</APPFILEGROUP>
+</ATLSINSTSETTINGS>
+

@@ -1,0 +1,86 @@
+<html>
+    {{// use MSDN's "ATL Server Response File Reference" to learn about SRF 
+    files.}} {{handler atlspassport.dll/Default}}
+    <head>
+    </head>
+    {{Passport_LogoTag}}
+    <br>
+    {{if Passport_IsAuthenticated}} Great, you've signed in!
+    <br>
+    Here's what we know about you:
+    <table border="1">
+        <tr>
+            <td>memberName</td>
+            <td>{{Passport_GetProfile(memberName)}}</td>
+        </tr>
+        <tr>
+            <td>memberIdLow</td>
+            <td>{{Passport_GetProfile(memberIdLow)}}</td>
+        </tr>
+        <tr>
+            <td>memberIdHigh</td>
+            <td>{{Passport_GetProfile(memberIdHigh)}}</td>
+        </tr>
+        <tr>
+            <td>profileVersion</td>
+            <td>{{Passport_GetProfile(profileVersion)}}</td>
+        </tr>
+        <tr>
+            <td>country</td>
+            <td>{{Passport_GetProfile(country)}}</td>
+        </tr>
+        <tr>
+            <td>memberName</td>
+            <td>{{Passport_GetProfile(memberName)}}</td>
+        </tr>
+        <tr>
+            <td>postalCode</td>
+            <td>{{Passport_GetProfile(postalCode)}}</td>
+        </tr>
+        <tr>
+            <td>region</td>
+            <td>{{Passport_GetProfile(region)}}</td>
+        </tr>
+        <tr>
+            <td>city</td>
+            <td>{{Passport_GetProfile(city)}}</td>
+        </tr>
+        <tr>
+            <td>lang_preference</td>
+            <td>{{Passport_GetProfile(lang_preference)}}</td>
+        </tr>
+        <tr>
+            <td>bday_precision</td>
+            <td>{{Passport_GetProfile(bday_precision)}}</td>
+        </tr>
+        <tr>
+            <td>birthdate</td>
+            <td>{{Passport_GetProfile(birthdate)}}</td>
+        </tr>
+        <tr>
+            <td>gender</td>
+            <td>{{Passport_GetProfile(gender)}}</td>
+        </tr>
+        <tr>
+            <td>preferredEmail</td>
+            <td>{{Passport_GetProfile(preferredEmail)}}</td>
+        </tr>
+        <tr>
+            <td>nickname</td>
+            <td>{{Passport_GetProfile(nickname)}}</td>
+        </tr>
+        <tr>
+            <td>wallet</td>
+            <td>{{Passport_GetProfile(wallet)}}</td>
+        </tr>
+        <tr>
+            <td>directory</td>
+            <td>{{Passport_GetProfile(directory)}}</td>
+        </tr>
+        <tr>
+            <td>flags</td>
+            <td>{{Passport_GetProfile(flags)}}</td>
+        </tr>
+    </table>
+    {{else}} Why don't you sign in? {{endif}}
+</html>

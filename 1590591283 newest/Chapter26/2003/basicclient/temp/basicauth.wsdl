@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="urn:basicauthService" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:basicauthService" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:basicauthService">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+    </s:schema>
+  </types>
+  <message name="HelloWorldIn">
+    <part name="bstrInput" type="s:string" />
+  </message>
+  <message name="HelloWorldOut">
+    <part name="return" type="s:string" />
+  </message>
+  <portType name="basicauthServiceSoap">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldIn" />
+      <output message="s0:HelloWorldOut" />
+    </operation>
+  </portType>
+  <binding name="basicauthServiceSoap" type="s0:basicauthServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="HelloWorld">
+      <soap:operation soapAction="#HelloWorld" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:basicauthService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:basicauthService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="basicauthService">
+    <port name="basicauthServiceSoap" binding="s0:basicauthServiceSoap">
+      <soap:address location="http://pranishk-v1:80/basicauth/basicauth.dll?Handler=Default" />
+    </port>
+  </service>
+</definitions>

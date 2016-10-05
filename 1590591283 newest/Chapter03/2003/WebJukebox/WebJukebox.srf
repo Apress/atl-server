@@ -1,0 +1,21 @@
+<html>
+  <HEAD>
+  </HEAD>
+  <BODY>
+    {{handler WebJukebox.dll/Default}}
+    <table border=1>
+      <tr>
+        <td><b>Name</b></td>
+        <td><b>Musician / Band / Composer</b></td>
+        <td><b>Description</b></td>
+      </tr>
+      {{while MoreSongs}}
+      <tr>
+        <td><a href="{{Location}}">{{Name}}</a></td>
+        <td>{{Musician}}</td>
+        <td>{{Description}}</td>
+      </tr>
+      {{endwhile}}
+    </table>
+  </BODY>
+</html>
